@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Factictionary Atlassian Apps</title>
+  <style>
+    :root {
+      --primary: #0052cc;
+      --text: #172b4d;
+      --subtle: #5e6c84;
+      --bg: #f4f5f7;
+      --card-bg: #ffffff;
+      --border: #ebecf0;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.65;
+      color: var(--text);
+      background-color: var(--bg);
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      padding: 48px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(9, 30, 66, 0.08);
+      border: 1px solid var(--border);
+    }
+    .header {
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+    }
+    .header h1 {
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 8px;
+    }
+    .meta {
+      font-size: 14px;
+      color: var(--subtle);
+    }
+    h2 {
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--text);
+      margin-top: 28px;
+      margin-bottom: 12px;
+    }
+    p {
+      margin-bottom: 16px;
+      font-size: 15px;
+    }
+    ul {
+      margin-left: 24px;
+      margin-bottom: 16px;
+    }
+    li {
+      margin-bottom: 8px;
+      font-size: 15px;
+    }
+    .badge-box {
+      background-color: #deebff;
+      border-left: 4px solid var(--primary);
+      padding: 16px 20px;
+      border-radius: 0 4px 4px 0;
+      margin: 24px 0;
+    }
+    .badge-box p {
+      margin: 0;
+      color: #0747a6;
+      font-size: 14px;
+      font-weight: 500;
+    }
+    .contact-box {
+      background: #fafbfc;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 20px;
+      margin-top: 24px;
+    }
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      margin-top: 32px;
+      font-size: 13px;
+      color: var(--subtle);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="header">
+      <h1>Privacy Policy</h1>
+      <div class="meta">
+        <strong>Publisher:</strong> Factictionary &bull; 
+        <strong>Effective Date:</strong> November 2026
+      </div>
+    </div>
+
+    <div class="badge-box">
+      <p>🛡️ <strong>Runs on Atlassian Cloud (Forge):</strong> Our apps operate serverless inside Atlassian's secure cloud perimeter. We do not operate external databases, and your data never leaves Atlassian.</p>
+    </div>
+
+    <h2>1. Introduction</h2>
+    <p>Factictionary ("we", "our", or "us") builds cloud-native add-ons and integrations for Jira and Confluence published on the Atlassian Marketplace. This Privacy Policy explains how our applications handle, process, and protect your information when installed within your Atlassian Cloud organization.</p>
+
+    <h2>2. Data Storage & Hosting Architecture</h2>
+    <p>Our apps (including <em>Smart Checklist &amp; Definition of Done</em>) are built exclusively on <strong>Atlassian Forge</strong>, Atlassian’s native serverless app platform. As a result:</p>
+    <ul>
+      <li><strong>No External Servers:</strong> We do not operate, own, or route data through external servers, cloud providers, or third-party hosting platforms.</li>
+      <li><strong>Native Data Residency:</strong> All checklists, task states, custom templates, and configuration settings are stored inside Atlassian's encrypted Key-Value Storage directly linked to your tenant.</li>
+      <li><strong>Boundary Protection:</strong> Your Jira and Confluence data never leaves the Atlassian Cloud security and compliance boundary.</li>
+    </ul>
+
+    <h2>3. Information We Collect</h2>
+    <p>We believe in strict data minimization:</p>
+    <ul>
+      <li><strong>Personal Information:</strong> We do not collect, harvest, sell, or rent your personal data, usernames, email addresses, or team members' identities.</li>
+      <li><strong>Issue &amp; Project Data:</strong> We do not transmit or inspect your tickets, issue summaries, or attachments outside of your Jira instance.</li>
+      <li><strong>Usage Analytics:</strong> We do not inject third-party trackers, telemetry scripts, advertising cookies, or browser tracking pixels.</li>
+    </ul>
+
+    <h2>4. App Permissions & Scopes</h2>
+    <p>Our applications request only the minimum necessary permissions required to provide core checklist and workflow management functionality:</p>
+    <ul>
+      <li><code>read:jira-work</code> – To render checklists in the issue view.</li>
+      <li><code>write:jira-work</code> – To update task completion status and save custom checklist items.</li>
+      <li><code>storage:app</code> – To persist checklist progress and team templates within Atlassian's secure app storage.</li>
+    </ul>
+
+    <h2>5. Compliance & Security Standards</h2>
+    <p>Because data is hosted directly on Atlassian Cloud infrastructure, security controls (including encryption in transit with TLS 1.2+ and encryption at rest with AES-256) inherit Atlassian's enterprise compliance programs (SOC 2, ISO 27001, GDPR).</p>
+
+    <h2>6. Changes to this Policy</h2>
+    <p>We may update this Privacy Policy from time to time to reflect operational or legal enhancements. Any changes will be posted on this page with an updated effective date.</p>
+
+    <div class="contact-box">
+      <h2>7. Contact Us</h2>
+      <p>If you have any questions, concerns, or inquiries regarding this Privacy Policy, please reach out to us at:</p>
+      <p>
+        <strong>Email:</strong> <a href="mailto:factictionary@gmail.com">factictionary@gmail.com</a><br>
+        <strong>Vendor:</strong> Factictionary
+      </p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2026 Factictionary. All rights reserved.
+  </footer>
+
+</body>
+</html>
